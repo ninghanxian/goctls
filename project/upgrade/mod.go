@@ -10,7 +10,7 @@ import (
 
 const (
 	goZeroMod = "github.com/zeromicro/go-zero"
-	adminTool = "github.com/qmcloud/simple-admin-tools"
+	adminTool = "github.com/qmcloud/admin-tools"
 )
 
 var errInvalidGoMod = errors.New("it's only working for go module")

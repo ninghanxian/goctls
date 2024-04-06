@@ -53,7 +53,7 @@
         "style": "{{.global.style}}",
         "casbin": "Whether to use the Casbin",
         "i18n": "{{.global.i18n}}",
-        "module_name": "The module name in go.mod. e.g. github.com/qmcloud/simple-admin-core",
+        "module_name": "The module name in go.mod. e.g. github.com/qmcloud/admin-core",
         "trans_err": "Whether to translate the error",
         "port": "The service port exposed",
         "ent": "Whether to use Ent in API service",
@@ -80,7 +80,7 @@
         "model": "Model name used for generation, the same as the struct name in schema. such as User, supports generating multiple models at the same time, separated by commas, such as User, Member",
         "search_key_num": "The max number of search keys",
         "rpc_name": "The rpc name in service context. e.g. Core means CoreRpc",
-        "grpc_package": "The rpc package which stores pb file. e.g. github.com/qmcloud/simple-admin-job/types/job",
+        "grpc_package": "The rpc package which stores pb file. e.g. github.com/qmcloud/admin-job/types/job",
         "multiple": "Whether the proto contains multiple services",
         "json_style": "The JSON tag format, default is camelcase",
         "i18n": "{{.global.i18n}}",
@@ -197,7 +197,7 @@
         "branch": "{{.global.branch}}",
         "verbose": "Enable log output",
         "ent": "Whether use Ent in project",
-        "module_name": "The module name in go.mod. e.g. github.com/qmcloud/simple-admin-core",
+        "module_name": "The module name in go.mod. e.g. github.com/qmcloud/admin-core",
         "port" : "The service port exposed",
         "i18n": "{{.global.i18n}}",
         "desc": "Whether to create desc folder for splitting proto files",
@@ -338,7 +338,7 @@
         "short": "Generate actions files for gitea to build docker images",
         "output_dir": "The output directory, please set the project's root directory",
         "china": "Whether the server is located in China",
-        "repository": "The address of the code repository, for example, \"https://github.com/qmcloud/simple-admin-job.git\""
+        "repository": "The address of the code repository, for example, \"https://github.com/qmcloud/admin-job.git\""
       }
     },
     "template": {

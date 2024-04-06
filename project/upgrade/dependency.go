@@ -45,13 +45,13 @@ func upgradeOfficialDependencies(data, workDir string) (err error) {
 			Repo: "github.com/qmcloud/admin-common",
 		},
 		{
-			Repo: "github.com/qmcloud/simple-admin-core",
+			Repo: "github.com/qmcloud/admin-core",
 		},
 		{
-			Repo: "github.com/qmcloud/simple-admin-message-center",
+			Repo: "github.com/qmcloud/admin-message-center",
 		},
 		{
-			Repo: "github.com/qmcloud/simple-admin-job",
+			Repo: "github.com/qmcloud/admin-job",
 		},
 	}
 
